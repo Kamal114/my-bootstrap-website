@@ -1,1 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Raleway&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar CSS */
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+    color: #82E0AA !important;
+    margin-left: 20px;
+}
+
+.active .nav-link {
+    color: #82E0AA !important;
+}
+
+.nav-link {
+    font-size: 20px !important;
+    transition: all 500ms;
+}
+
+.nav-link:hover {
+    color: #82E0AA !important;
+}
+
+/* End of Navbar CSS */
+
+
+/* Banner CSS */
+
+#banner {
+    background: url("/images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.banner-h1 {
+    font-family: 'Lato', sans-serif;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    font-size: 48px;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.banner-btn-1,
+.banner-btn-2 {
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.banner-btn-1 {
+    margin-right: 20px;
+}
+
+/* End of Banner CSS */
