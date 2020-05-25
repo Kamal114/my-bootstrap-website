@@ -69,3 +69,29 @@ body {
 }
 
 /* End of Banner CSS */
+
+
+/* Services CSS */
+
+#services {
+    margin: 40px 0;
+}
+
+.services-heading {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card {
+    transition: all 300ms;
+    box-shadow: 0 0 5px gray;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* End of Services CSS */
