@@ -7,6 +7,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* CSS Utility Class */
+
+.border-all {
+    border-bottom: 3px solid black;
+    display: inline-block;
+
+}
+
+/* End of CSS Utility Class */
+
+
 /* Navbar CSS */
 
 .navbar {
@@ -165,3 +176,21 @@ body {
 }
 
 /* End of Section Two CSS */
+
+
+/* Contact Form CSS */
+
+#contact-form {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#contact-form h1 {
+    padding: 15px 0;
+}
+
+#contact-form form {
+    margin: 20px 0;
+}
+
+/* End of Form CSS */

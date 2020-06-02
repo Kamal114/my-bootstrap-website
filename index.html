@@ -1,257 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/b504523966.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Botstrap Website</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <script src="https://kit.fontawesome.com/b504523966.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/style.css" />
-  <title>Botstrap Website</title>
-</head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a href="#" class="navbar-brand">
+        Bright Pointers
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#my-menu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="my-menu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
 
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a href="#" class="navbar-brand">
-      Bright Pointers
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-menu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="my-menu">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a href="#" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Contact Us</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- End of Navbar -->
-
-  <!-- Banner -->
-  <section id="banner">
-    <div class="container-fluid">
-      <div class="d-flex justify-content-center">
-        <div class="d-flex flex-column">
-          <h1 class="banner-h1">Welcome To Bright Pointers</h1>
-          <div class="d-flex flex-row justify-content-center">
-            <input type="button" class="btn btn-secondary banner-btn-1" value="About Us" />
-            <input type="button" class="btn btn-dark banner-btn-2" value="Contact Us" />
+    <!-- Banner -->
+    <section id="banner">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-center">
+          <div class="d-flex flex-column">
+            <h1 class="banner-h1">Welcome To Bright Pointers</h1>
+            <div class="d-flex flex-row justify-content-center">
+              <input
+                type="button"
+                class="btn btn-secondary banner-btn-1"
+                value="About Us"
+              />
+              <input
+                type="button"
+                class="btn btn-dark banner-btn-2"
+                value="Contact Us"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End of Banner -->
+    </section>
+    <!-- End of Banner -->
 
-  <!-- Services -->
-  <section id="services">
-    <div class="container">
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="services-heading"></h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./images/section-1-img.jpg"
+                alt=""
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Web Development</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi, atque!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./images/ui.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h3 class="card-title">UI/UX Design</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi, atque!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./images/seo.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h3 class="card-title">SEO</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi, atque!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Services -->
+
+    <!-- Section Two -->
+    <section id="section-two">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-end">
+          <div class="d-flex flex-column">
+            <h1 class="section-two-heading">Want to know more about us</h1>
+            <p class="section-two-para">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
+              distinctio.
+            </p>
+            <button type="button" class="btn btn-light section-two-btn">
+              Know More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Section Two -->
+
+    <!-- Services -->
+    <section id="section-3">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="m-3 py-4 border-all">Facilities and Products</h1>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="d-flex flex-row">
+              <i class="fas fa-phone-volume fa-2x m-2"></i>
+              <div class="d-flex flex-column">
+                <h4 class="m-2">Customer Support</h4>
+                <p class="m-2 text-justify">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
+                  doloribus? Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Aperiam sequi earum provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex flex-row">
+              <i class="fas fa-dollar-sign fa-2x m-2"></i>
+              <div class="d-flex flex-column">
+                <h4 class="m-2">Best Pricing</h4>
+                <p class="m-2 text-justify">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
+                  doloribus? Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Aperiam sequi earum provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex flex-row">
+              <i class="fas fa-shield-alt fa-2x m-2"></i>
+              <div class="d-flex flex-column">
+                <h4 class="m-2">Security</h4>
+                <p class="m-2 text-justify">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
+                  doloribus? Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Aperiam sequi earum provident.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-md-4">
+            <div class="d-flex flex-row">
+              <i class="fas fa-user fa-2x m-2"></i>
+              <div class="d-flex flex-column">
+                <h4 class="m-2">Expert Staff</h4>
+                <p class="m-2 text-justify">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
+                  doloribus? Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Aperiam sequi earum provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex flex-row">
+              <i class="fab fa-speakap fa-2x m-2"></i>
+              <div class="d-flex flex-column">
+                <h4 class="m-2">Ease of Services</h4>
+                <p class="m-2 text-justify">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
+                  doloribus? Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Aperiam sequi earum provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex flex-row">
+              <i class="fas fa-bullhorn fa-2x m-2"></i>
+              <div class="d-flex flex-column">
+                <h4 class="m-2">Marketing</h4>
+                <p class="m-2 text-justify">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
+                  doloribus? Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Aperiam sequi earum provident.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Services -->
+
+    <!-- Price Image -->
+    <section id="price-img">
+      <div class="container-fluid">
+        <img src="./images/price.jpg" alt="" class="img-fluid" />
+      </div>
+    </section>
+    <!-- End of Price Image-->
+
+    <!-- Contact Form -->
+    <section id="contact-form">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="border-all">Contact Form</h1>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <form>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Enter Phone"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  class="form-control"
+                  placeholder="Enter Message"
+                ></textarea>
+              </div>
+              <button class="btn btn-success btn-lg btn-block">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Contact Form -->
+
+    <!-- Footer -->
+    <footer class="bg-light mt-3 py-2">
+      <div class="conatiner">
+        <div class="row">
+          <div class="col-md-12 text-center py-4">
+            <a href="#">
+              <i class="fab fa-facebook fa-2x mr-5"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/company/bright-pointers/about/?viewAsMember=true"
+            >
+              <i class="fab fa-linkedin fa-2x mr-5"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
       <div class="text-center">
-        <h1 class="services-heading"></h1>
+        <p class="lead">Bright Pointers 2020. All Right Reserved!</p>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <img src="./images/section-1-img.jpg" alt="" class="card-img-top" />
-            <div class="card-body">
-              <h3 class="card-title">Web Development</h3>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Excepturi, atque!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="./images/ui.jpg" alt="" class="card-img-top" />
-            <div class="card-body">
-              <h3 class="card-title">UI/UX Design</h3>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Excepturi, atque!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="./images/seo.jpg" alt="" class="card-img-top" />
-            <div class="card-body">
-              <h3 class="card-title">SEO</h3>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Excepturi, atque!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End of Services -->
+    </footer>
+    <!-- End of Footer -->
 
-  <!-- Section Two -->
-  <section id="section-two">
-    <div class="container-fluid">
-      <div class="d-flex justify-content-end">
-        <div class="d-flex flex-column">
-          <h1 class="section-two-heading">Want to know more about us</h1>
-          <p class="section-two-para">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
-            distinctio.
-          </p>
-          <button type="button" class="btn btn-light section-two-btn">
-            Know More
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End of Section Two -->
-
-  <!-- Services -->
-  <section id="section-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="d-flex flex-row">
-            <i class="fas fa-phone-volume fa-2x m-2"></i>
-            <div class="d-flex flex-column">
-              <h4 class="m-2">24/7 Customer Support</h4>
-              <p class="m-2 text-justify">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
-                doloribus? Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Aperiam sequi earum provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="d-flex flex-row">
-            <i class="fas fa-dollar-sign fa-2x m-2"></i>
-            <div class="d-flex flex-column">
-              <h4 class="m-2">Best Pricing</h4>
-              <p class="m-2 text-justify">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
-                doloribus? Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Aperiam sequi earum provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="d-flex flex-row">
-            <i class="fas fa-shield-alt fa-2x m-2"></i>
-            <div class="d-flex flex-column">
-              <h4 class="m-2">Security</h4>
-              <p class="m-2 text-justify">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
-                doloribus? Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Aperiam sequi earum provident.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-2">
-        <div class="col-md-4">
-          <div class="d-flex flex-row">
-            <i class="fas fa-user fa-2x m-2"></i>
-            <div class="d-flex flex-column">
-              <h4 class="m-2">Expert Staff</h4>
-              <p class="m-2 text-justify">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
-                doloribus? Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Aperiam sequi earum provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="d-flex flex-row">
-            <i class="fab fa-speakap fa-2x m-2"></i>
-            <div class="d-flex flex-column">
-              <h4 class="m-2">Ease of Services</h4>
-              <p class="m-2 text-justify">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
-                doloribus? Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Aperiam sequi earum provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="d-flex flex-row">
-            <i class="fas fa-bullhorn fa-2x m-2"></i>
-            <div class="d-flex flex-column">
-              <h4 class="m-2">Marketing</h4>
-              <p class="m-2 text-justify">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
-                doloribus? Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Aperiam sequi earum provident.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End of Services -->
-
-  <!-- Price Image -->
-  <section id="price-img">
-    <div class="container-fluid">
-      <img src="./images/price.jpg" alt="" class="img-fluid" />
-    </div>
-  </section>
-  <!-- End of Price Image-->
-
-  <!-- Footer -->
-  <footer class="bg-light mt-3 py-2">
-    <div class="conatiner">
-      <div class="row">
-        <div class="col-md-12 text-center py-4">
-          <a href="#">
-            <i class="fab fa-facebook fa-2x mr-5"></i>
-          </a>
-          <a href="https://www.linkedin.com/company/bright-pointers/about/?viewAsMember=true">
-            <i class="fab fa-linkedin fa-2x mr-5"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-instagram fa-2x"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="text-center">
-      <p class="lead">Bright Pointers 2020. All Right Reserved!</p>
-    </div>
-  </footer>
-  <!-- End of Footer -->
-
-  <script src="js/main.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-</body>
-
+    <script src="js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
