@@ -175,6 +175,14 @@ body {
     color: #82E0AA;
 }
 
+.side-border {
+    transition: border-right .1s;
+}
+
+.side-border:hover {
+    border-right: 2px solid black;
+}
+
 /* End of Section Two CSS */
 
 
